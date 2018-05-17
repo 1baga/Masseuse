@@ -1,3 +1,31 @@
 page-home {
+    #main{
+        width: 100%;
+        text-align: center;
+    }
 
+    #mainHead{
+        font-size: 22px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+    }
+
+    #mainCon{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 350;
+        font-size: 16px;
+    }
+
+    #butt{
+        text-align: center;
+    }
+
+    #gtbut{
+        background-color: map-get($colors, light);
+        color: map-get($map: $colors, $key: primary);
+        border-radius: 20px;
+        padding: 20px;
+        width: 85%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 }
