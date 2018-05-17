@@ -1,0 +1,8 @@
+{
+  "name": "masseuse",
+  "app_id": "4d4f3b11",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
